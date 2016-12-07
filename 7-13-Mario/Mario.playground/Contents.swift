@@ -31,7 +31,7 @@ func levelCost(heights: [Int], maxJump: Int)->Int{
 }
     return energy
 }
-levelCost(heights: [1,2,2], maxJump: 5)
+levelCost(heights: [1,1,3,1,1], maxJump: 5)
 
 
 

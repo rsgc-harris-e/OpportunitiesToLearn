@@ -25,19 +25,21 @@ shakeItCenter()
 */
 fabulize()
 fabulize()
+leftLegUp()
+rightLegUp()
+leftLegDown()
 fabulize()
 fabulize()
 leftArmUp()
 rightArmUp()
 
-leftLegUp()
-rightLegUp()
-leftLegDown()
+
 rightLegDown()
+jumpUp()
 shakeItLeft()
 shakeItRight()
 shakeItCenter()
-jumpUp()
+
 jumpDown()
 
 leftArmDown()
