@@ -17,6 +17,8 @@
 
 let ricketyRope = TreehousePulley(weightCapacity: 200)
 
+let boldrope = TreehousePulley(weightCapacity:2000)
+
 
 
 /*:
