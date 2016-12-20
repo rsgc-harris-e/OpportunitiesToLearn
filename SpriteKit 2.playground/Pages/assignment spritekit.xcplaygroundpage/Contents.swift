@@ -24,7 +24,7 @@ emitter.particleBlendMode = SKBlendMode.alpha
 emitter.particleBirthRate = 30
 emitter.particleSize = CGSize(width: 20,height: 20)
 emitter.particleColor = SKColor(red: 100, green: 100, blue: 255, alpha: 1)
-emitter.position = CGPoint(x:frame.size.width,y:30)
+emitter.position = CGPoint(x:frame.size.width,y: 20)
 emitter.particleSpeed = 16
 emitter.particleSpeedRange = 100
 emitter.particlePositionRange = CGVector(dx: 100, dy: 60)
@@ -33,5 +33,11 @@ emitter.advanceSimulationTime(40)
 emitter.particleAlpha = 0.5
 emitter.particleAlphaRange = 0.5
 scene.addChild(emitter)
-
+let text = SKLabelNode(fontNamed: "Comic Sans MS")
+text.fontColor =  SKColor.red
+text.text = "Merry Christmas!"
+text.horizontalAlignmentMode = .center
+text.position = CGPoint(x: 160, y:230)
+text.fontSize = 20
+scene.addChild(text)
 //: [Next](@next)
