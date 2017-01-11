@@ -8,7 +8,7 @@ let midPoint = CGPoint(x: frame.size.width / 2.0, y: frame.size.height / 2.0)
 var scene = SKScene(size: frame.size)
 let xmas = SKSpriteNode(imageNamed: "santa")
 xmas.position = midPoint
-xmas.setScale(0.25)
+xmas.setScale(0.2)
 scene.addChild(xmas)
 let view = SKView(frame: frame)
 view.presentScene(scene)
@@ -33,11 +33,11 @@ emitter.advanceSimulationTime(40)
 emitter.particleAlpha = 0.5
 emitter.particleAlphaRange = 0.5
 scene.addChild(emitter)
-let text = SKLabelNode(fontNamed: "Comic Sans MS")
-text.fontColor =  SKColor.red
+let text = SKLabelNode(fontNamed: "CartoonBlocksChristmas")
+text.fontColor =  SKColor.white
 text.text = "Merry Christmas!"
 text.horizontalAlignmentMode = .center
 text.position = CGPoint(x: 160, y:230)
-text.fontSize = 20
+text.fontSize = 30
 scene.addChild(text)
 //: [Next](@next)
